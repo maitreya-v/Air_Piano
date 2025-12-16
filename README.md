@@ -41,41 +41,7 @@ Guided Piano is a webcam-based HCI prototype that teaches **piano chord concepts
 
 ---
 
-## Repository Structure (Typical)
-.
-├── data/
-│   └── (optional datasets, logs, or calibration files)
-│
-├── src/
-│   ├── core/
-│   │   ├── __init__.py
-│   │   ├── hand_tracking.py
-│   │   ├── gesture_classifier.py
-│   │   ├── engine_cvzone.py
-│   │   ├── feedback_engine.py
-│   │   └── sound_engine.py
-│   │
-│   ├── modes/
-│   │   ├── __init__.py
-│   │   ├── tutorial.py
-│   │   ├── free_play.py
-│   │   └── challenge.py
-│   │
-│   ├── utils/
-│   │   ├── __init__.py
-│   │   ├── features.py
-│   │   ├── mappings.py
-│   │   └── storage.py
-│   │
-│   ├── app.py
-│   ├── demo_cli.py
-│   └── demo_cvzone.py
-│
-├── requirements.txt
-├── README.md
-├── LICENSE
-└── .gitignore
-🧠 src/core/ — Core System Logic
+## Repository Structure
 
 This folder contains the core computer vision, gesture recognition, and feedback modules that power the system.
 
